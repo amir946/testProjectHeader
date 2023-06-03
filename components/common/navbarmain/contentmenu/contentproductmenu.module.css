@@ -1,0 +1,101 @@
+#DivRootPrMe {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 100px;
+  width: 100%;
+  /* height: 50px; */
+}
+#DivRootPrMe > div {
+  background-color: white;
+  direction: rtl;
+  border-radius: 25px;
+  width: 83%;
+  /* display: flex; */
+  height: 60vh;
+}
+#DivRootPrMe > div > div:nth-child(1) {
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  background-image: url("./Picture5.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-color: aqua; */
+}
+#DivRootPrMe > div:nth-child(1) > div > ul li {
+  font-size: 13px;
+}
+.iconMobile {
+  position: relative;
+  bottom: 21px;
+  left: 27px;
+}
+.IconMob {
+  position: relative;
+  bottom: 7px;
+  left: -5px;
+}
+.Hr {
+  position: absolute;
+  width: 500px;
+  height: 0px;
+  left: 1290px;
+  top: 280px;
+  border: 1px solid #eeeeee;
+  transform: rotate(89.65deg);
+}
+#DivRootPrMe > div > div> ul li:hover{
+    color: #9773ff;
+}
+#DivRootPrMe > div > div:nth-child(4) {
+  display: flex;
+  flex-direction: column;
+}
+#DivRootPrMe > div > div:nth-child(4) div {
+  height: 30vh;
+}
+#DivRootPrMe > div > div:nth-child(4) > div:nth-child(1) {
+  border-top-left-radius: 25px;
+}
+#DivRootPrMe > div > div:nth-child(4) > div:nth-child(2) {
+  border-bottom-left-radius: 25px;
+}
+.img {
+  position: relative;
+  width: 100%;
+  right: 16px;
+  top: 23px;
+}
+.titlePM {
+  display: flex;
+}
+.titlePM > span:nth-child(1) {
+  position: relative;
+  top: 1px;
+  font-weight: bold;
+}
+.titlePM > span:nth-child(2) {
+  color: #9773ff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+}
+.titlePM >span:nth-child(3) svg{
+    position: relative;
+    top: 6px;
+    right: 3px;
+    width: 10px;
+    height: 10px;
+}
+
+.namePM {
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #adadad;
+}

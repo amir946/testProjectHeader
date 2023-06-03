@@ -1,0 +1,23 @@
+.iconCall{
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+width: 28.57px;
+height: 28.57px;
+border: 1px solid #15121D;
+border-radius: 50px;
+}
+.callNumber{
+position: relative;
+height: 22px;
+left: 10px;
+font-family: 'Sans'; 
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #15121D;
+}
+

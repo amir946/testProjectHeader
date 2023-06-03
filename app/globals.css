@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+@font-face {
+  font-family: "Sans";
+  src: url("../public/assets/fonts/Sans\ a4fran3.eot") format("eot"),
+    url("../public/assets/fonts/Sans\ a4fran3.woff") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Sans" !important;
+  padding: 0;
+  margin: 0;
+  background-color: #f9f8fc;
+}
+
+.navBar {
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.03);
+}
+.divRootNavLinkNav {
+  position: relative;
+  left: 170px;
+}
+.linkCall {
+  position: relative;
+  right: 170px;
+}
+.imageNavBarMain {
+  position: relative;
+  left: 170px;
+}
+#choiseLangBtn {
+  position: relative;
+  left: -155px;
+  top: -7px;
+  display: flex;
+  justify-content: center;
+}
+.DivRootSearch input {
+  direction: rtl;
+  color: black;
+  outline: none;
+  border: none;
+  height: 70px;
+  padding-right: 30px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.02);
+  border-radius: 16px;
+  z-index: 0;
+}
+.DivRootSearch {
+  /* display: flex;
+  justify-content: center; */
+}
+.DivRootSearch input::placeholder {
+  font-size: 1rem;
+}
+.btnSearch {
+  background: #ff9900;
+  box-shadow: 0px 0px 4px rgba(255, 153, 0, 0.47);
+  border-radius: 14px;
+  height: 46.07px;
+  width: 46.07px;
+  text-align: center;
+}
+.iconSearch {
+  position: relative;
+  left: -5px;
+}
+/* //RESPONSIVE TABLET */
+
+@media only screen and (max-width: 1200px) {
+  .divRootNavLinkNav {
+    display: none !important;
+  }
+  .divRootNavbar {
+    display: flex;
+    justify-content: space-evenly;
+    left: 70px;
+    position: relative;
+
+  }
+  .navBar{
+    position: relative;
+    /* background-color: #ff9900; */
+    /* width: 100px;; */
+  }
+  .imageNavBarMain {
+    display: none;
+  }
+  .imageNavBarMain2 {
+    position: relative;
+    right: 100px;
+  }
+  .divrootNavM {
+    display: none !important;
+  }
+  .divLang {
+    display: none;
+  }
+  #choiseLangBtn {
+    position: relative;
+    left: 100px;
+  }
+   .DivRootSearch {
+    position: relative;
+    top: -80px;
+    width: 650px;
+    left: 275px;
+    /* background-color: #FF9900; */
+  }
+    .divIconMenu {
+    position: relative;
+    top: -120px;
+    right: -550px;
+    /* background-color: #FF9900; */
+  }
+  
+}
+@media only screen and (max-width: 470px) {
+  .divLang {
+    display: none;
+  }
+  .imageNavBarMain {
+    display: none;
+  }
+  .navBar {
+    display: none;
+  }
+  .DivRootSearch {
+    position: relative;
+    top: -80px;
+    width: 250px;
+    left: 30px;
+  }
+  .divIconMenu {
+    position: relative;
+    top: -25px;
+    right: 90px;
+  }
+}
